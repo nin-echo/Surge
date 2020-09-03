@@ -79,7 +79,8 @@ PSN会免 = type=cron,cronexp=0 9 1 * *,script-path=https://raw.githubuserconten
 宠汪汪偷好友积分与狗粮 = type=cron,cronexp=12 12,wake-system=1,script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_joy_steal.js,script-update-interval=0
 # > 京东种豆得豆 (By uniqueque、lxk0301 & iepngs)
 # 京东App - 右下角"我的"- 游戏与互动-种豆得豆
-京东种豆得豆 = type=cron,cronexp=8 19-09/3 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_plantBean.js,script-update-interval=0
+京东种豆得豆-上午 = type=cron,cronexp=55 18-23/3 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_plantBean.js,script-update-interval=0
+京东种豆得豆-下午 = type=cron,cronexp=55 0-9/3 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_plantBean.js,script-update-interval=0
 # > 京东摇钱树 (By lxk0301)
 # 京东App - 右下角"我的"- 游戏与互动-摇钱树
 京东摇钱树 = type=cron,cronexp=*/6 * * * *,script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_moneyTree.js,wake-system=1
