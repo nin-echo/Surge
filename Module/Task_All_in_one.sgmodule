@@ -31,20 +31,24 @@ PSN会免 = type=cron,cronexp=0 9 1 * *,script-path=https://raw.githubuserconten
 # 签到脚本
 
 # NobyDa
-# > 京东
 京东 = type=cron,cronexp=0 0 0 * * *,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js,script-update-interval=0
-# > 爱奇艺
 爱奇艺 = type=cron,cronexp=5 0 0 * * *,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js,script-update-interval=0
-# > 哔哩哔哩漫画
 哔哩哔哩漫画 = type=cron,cronexp=15 0 0 * *,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Bilibili-DailyBonus/Manga.js,script-update-interval=0
+快看漫画签到 = type=cron,cronexp=0 9 * * *,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/KuaiKan-DailyBonus/KKMH.js,script-update-interval=0
 
 # @chavyleung
 # 电信营业厅
 # 打开 APP 手动签到一次: 访问下右下角 `我` > `签到` (头像下面)
 电信营业厅 = type=cron,cronexp=20 0 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10000/10000.js,script-update-interval=0
+# AcFun
+# 打开 APP, 访问下`我的`
+AcFun = type=cron,cronexp=25 0 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/acfun/acfun.js,script-update-interval=0
 # 人人视频
 # 打开 APP, 访问下`个人中心`
 人人视频 = type=cron,cronexp=15 1 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/rrtv/rrtv.js,script-update-interval=0
+# 网易云音乐
+# 浏览器访问并登录: https://music.163.com/m/login
+网易云音乐 = type=cron,cronexp=0 1 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/neteasemusic/neteasemusic.js,script-update-interval=0
 # 什么值得买
 # 浏览器访问并登录: https://zhiyou.smzdm.com/user/login
 什么值得买 = type=cron,cronexp=25 1 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/smzdm/smzdm.js,script-update-interval=0
@@ -53,7 +57,7 @@ PSN会免 = type=cron,cronexp=0 9 1 * *,script-path=https://raw.githubuserconten
 腾讯视频 = type=cron,cronexp=35 1 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/videoqq/videoqq.js,script-update-interval=0
 # 字幕组
 # 网页:打开浏览器访问: http://www.rrys2019.com, App: 打开 APP 即可
-// 字幕组 = type=cron,cronexp=50 1 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/zimuzu/zimuzu.js,script-update-interval=0
+字幕组 = type=cron,cronexp=50 1 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/zimuzu/zimuzu.js,script-update-interval=0
 
 # > 微博 & 微博钱包 (By @Macsuny)
 # 1.打开微博App获取Cookie.获取后请注释或禁用Cookie
@@ -65,36 +69,28 @@ PSN会免 = type=cron,cronexp=0 9 1 * *,script-path=https://raw.githubuserconten
 # 进入"115"并摇一摇
 115 = type=cron,cronexp=1 12 * * *,script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/115/115.,script-update-interval=0
 
-# > 京东农场 (By liuxiaoyucc、lxk0301 & iepngs)
-# 京东App - 右下角"我的"- 游戏与互动- 东东农场
-京东农场 = type=cron,cronexp=8 12 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_fruit.js,script-update-interval=0
-# > 京东萌宠 (By liuxiaoyucc、lxk0301 & iepngs)
-# 京东App - 右下角"我的"- 游戏与互动-东东萌宠
-京东萌宠 = type=cron,cronexp=8 12 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_pet.js,script-update-interval=0
-# > 京东宠汪汪 (By uniqueque、lxk0301 & iepngs)
-# 京东App - 右下角"我的"- 游戏与互动-宠汪汪
-京东宠汪汪 = type=cron,cronexp=0 */3 * * *,script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_joy.js,wake-system=1
-宠汪汪积分兑换奖品 = type=cron,cronexp=0 0 12-04/8 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_joy_reward.js,script-update-interval=0
-宠汪汪喂食 = type=cron,cronexp=0 0 */3 * * *,script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_joy_feedPets.js,wake-system=1
-宠汪汪偷好友积分与狗粮 = type=cron,cronexp=12 12,wake-system=1,script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_joy_steal.js,script-update-interval=0
-# > 京东种豆得豆 (By uniqueque、lxk0301 & iepngs)
-# 京东App - 右下角"我的"- 游戏与互动-种豆得豆
-京东种豆得豆-上午 = type=cron,cronexp=55 18-23/3 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_plantBean.js,script-update-interval=0
-京东种豆得豆-下午 = type=cron,cronexp=55 0-9/3 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_plantBean.js,script-update-interval=0
-# > 京东摇钱树 (By lxk0301)
-# 京东App - 右下角"我的"- 游戏与互动-摇钱树
-京东摇钱树 = type=cron,cronexp=*/6 * * * *,script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_moneyTree.js,wake-system=1
-# > 京东加速 (By lxk0301)
-# 京东App - 右下角"我的"- 游戏与互动-天天加速
-京东加速 = type=cron,cronexp=0 */3 * * *,script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_speed.js,wake-system=1
-# > 取关京东店铺商品 (By lxk0301)
-取关京东店铺商品 = type=cron,cronexp=55 11 * * *,wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_unsubscribe.js,script-update-interval=0
-# > 京小超(By lxk0301)
-# 京东App - 右下角"我的"- 游戏与互动-京小超
-京小超-任务 = type=cron,cronexp=0 5 12 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_superMarket.js,script-update-interval=0
-京小超-小费 = type=cron,cronexp=30 7 12 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/lxk0301/scripts/master/jd_blueCoin.js,script-update-interval=0
+# > 京东 (By lxk0301)
+cron "5 6-18/6 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_fruit.js,timeout=530, wake-system=1, tag=东东农场
+cron "20 7-19/6 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_pet.js,timeout=530, wake-system=1, tag=东东萌宠
+cron "10 7-21/2 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_plantBean.js,timeout=630, wake-system=1, tag=京东种豆得豆
+cron "15 */2 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_joy.js,timeout=330, wake-system=1, tag=宠汪汪
+cron "12 */1 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_joy_feedPets.js,timeout=30, wake-system=1, tag=宠汪汪喂食
+cron "0 0,6 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_joy_steal.js,timeout=420, wake-system=1, tag=宠汪汪偷好友积分与狗粮
+cron "1 0,8,12,16 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_joy_reward.js,timeout=30, wake-system=1, tag=宠汪汪积分兑换奖品
+cron "8 */3 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_speed.js,timeout=130, wake-system=1, tag=京东天天加速
+cron "9 */3 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_moneyTree.js,timeout=130, wake-system=1, tag=京东摇钱树
+cron "5 0 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_club_lottery.js, timeout=50, wake-system=1, tag=摇京豆
+cron "11 1-23/5 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_superMarket.js,timeout=530, wake-system=1, tag=京小超
+cron "0 0 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_blueCoin.js,timeout=30, wake-system=1, tag=京小超领蓝币(兑换京豆)
+cron "55 23 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_unsubscribe.js,timeout=250, wake-system=1, tag=取关京东店铺商品
+cron "10 0 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_shop.js,timeout=30, wake-system=1, tag=进店领豆
+# cron "1 0-18/6 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_818.js, timeout=150, wake-system=1, tag=京东手机狂欢城
+cron "15 10 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_joy_run.js, timeout=30, wake-system=1, tag=宠汪汪邀请助力与赛跑助力
+cron "1 1 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_redPacket.js, wake-system=1, tag=京东全民开红包
+# cron "0 0 0 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_xtg.js, timeout=550, wake-system=1, tag=京东星推官
+cron "2 9 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_bean_change.js, timeout=650, wake-system=1, tag=京豆变动通知
+# cron "20 * * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_collectProduceScore.js, wake-system=1, tag=京东全民营业领金币
 
 # > 电信余额提醒(By id77)
 # 进入【天翼账号中心】公众号 点 查询充值-查余额
 电信余额提醒 = type=cron,cronexp=10 12 12 * *,wake-system=1,script-path=https://raw.githubusercontent.com/id77/QuantumultX/master/task/10000.js
-iDaily每日环球视野 = type=cron,cronexp=0 0 18 * * *,script-path=https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/idaily/idaily.js,script-update-interval=0
