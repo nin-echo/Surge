@@ -23,10 +23,10 @@ PSN会免 = type=cron,cronexp=0 9 1 * *,script-path=https://raw.githubuserconten
 
 # > 微博通知  (By @zZPiglet)
 # 进入 https://m.weibo.cn 并登陆，获取cookie后进入boxjs配置
-微博通知 = type=cron,cronexp=0 * * * *,script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/Weibo/Weibo.js
+# 微博通知 = type=cron,cronexp=0 * * * *,script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/Weibo/Weibo.js
 
 # > 哔哩哔哩番剧监控 (By @lowking0415)
-哔哩哔哩番剧监控 = type=cron,cronexp="0 0 12,13,14 * * ?",wake-system=1,script-path=https://raw.githubusercontent.com/lowking/Scripts/master/bilibili/bangumiMonitor.js
+# 哔哩哔哩番剧监控 = type=cron,cronexp="0 0 12,13,14 * * ?",wake-system=1,script-path=https://raw.githubusercontent.com/lowking/Scripts/master/bilibili/bangumiMonitor.js
 
 # 签到脚本
 
@@ -63,11 +63,11 @@ AcFun = type=cron,cronexp=25 0 0 * * *,script-path=https://raw.githubusercontent
 # 1.打开微博App获取Cookie.获取后请注释或禁用Cookie
 # 2.打开微博钱包点击签到，获取Cookie，
 # 3.钱包已经签到无法获取
-微博(钱包) = type=cron,cronexp=35 0 0 * * *,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/weibo.js,script-update-interval=0
+# 微博(钱包) = type=cron,cronexp=35 0 0 * * *,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/weibo.js,script-update-interval=0
 
 # > 115 (By @zZPiglet)
 # 进入"115"并摇一摇
-115 = type=cron,cronexp=1 12 * * *,script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/115/115.,script-update-interval=0
+# 115 = type=cron,cronexp=1 12 * * *,script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/115/115.,script-update-interval=0
 
 # > 京东 (By lxk0301)
 cron "5 6-18/6 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_fruit.js,timeout=530, wake-system=1, tag=东东农场
@@ -93,4 +93,4 @@ cron "2 9 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_script
 
 # > 电信余额提醒(By id77)
 # 进入【天翼账号中心】公众号 点 查询充值-查余额
-电信余额提醒 = type=cron,cronexp=10 12 12 * *,wake-system=1,script-path=https://raw.githubusercontent.com/id77/QuantumultX/master/task/10000.js
+# 电信余额提醒 = type=cron,cronexp=10 12 12 * *,wake-system=1,script-path=https://raw.githubusercontent.com/id77/QuantumultX/master/task/10000.js
