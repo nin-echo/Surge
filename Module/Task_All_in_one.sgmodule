@@ -21,13 +21,6 @@ Epic周免 = type=cron,cronexp=0 8 */7 * *,script-path=https://raw.githubusercon
 # > PSN会免(By Peng-YM)
 PSN会免 = type=cron,cronexp=0 9 1 * *,script-path=https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/psn.js
 
-# > 微博通知  (By @zZPiglet)
-# 进入 https://m.weibo.cn 并登陆，获取cookie后进入boxjs配置
-# 微博通知 = type=cron,cronexp=0 * * * *,script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/Weibo/Weibo.js
-
-# > 哔哩哔哩番剧监控 (By @lowking0415)
-# 哔哩哔哩番剧监控 = type=cron,cronexp="0 0 12,13,14 * * ?",wake-system=1,script-path=https://raw.githubusercontent.com/lowking/Scripts/master/bilibili/bangumiMonitor.js
-
 # 签到脚本
 
 # NobyDa
@@ -58,16 +51,6 @@ AcFun = type=cron,cronexp=25 0 0 * * *,script-path=https://raw.githubusercontent
 # 字幕组
 # 网页:打开浏览器访问: http://www.rrys2019.com, App: 打开 APP 即可
 字幕组 = type=cron,cronexp=50 1 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/zimuzu/zimuzu.js,script-update-interval=0
-
-# > 微博 & 微博钱包 (By @Macsuny)
-# 1.打开微博App获取Cookie.获取后请注释或禁用Cookie
-# 2.打开微博钱包点击签到，获取Cookie，
-# 3.钱包已经签到无法获取
-# 微博(钱包) = type=cron,cronexp=35 0 0 * * *,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/weibo.js,script-update-interval=0
-
-# > 115 (By @zZPiglet)
-# 进入"115"并摇一摇
-# 115 = type=cron,cronexp=1 12 * * *,script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/115/115.,script-update-interval=0
 
 # > 京东 (By lxk0301)
 cron "5 6-18/6 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_fruit.js,timeout=530, wake-system=1, tag=东东农场
